@@ -409,7 +409,7 @@ select {
   .panel-body.wizard-content .col-lg-6:nth-child(even) {
       padding-right: 25px;
   }
-  
+
 }
 
 
@@ -703,6 +703,25 @@ File: css
             }
             &:hover{
               color: #999;
+            }
+
+
+            .step{
+              position: relative;
+              &::after{
+                content: "";
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                right: 0;
+                top: 0;
+                border-radius: 50%;
+                background-image: url(../images/check-Icon.svg);
+                background-repeat: no-repeat;
+                background-size: auto;
+                background-position: center;
+                background-color: #63B246;
+              }
             }
           }
           .step{

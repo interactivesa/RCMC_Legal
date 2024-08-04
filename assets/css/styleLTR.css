@@ -896,6 +896,25 @@ File: css
   color: #999;
 }
 
+.wizard-content .wizard > .steps ul li.done a .step {
+  position: relative;
+}
+
+.wizard-content .wizard > .steps ul li.done a .step::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  background-image: url(../images/check-Icon.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-color: #63B246;
+}
+
 .wizard-content .wizard > .steps ul li.done .step {
   background-color: #63B246;
   color: #fff;
