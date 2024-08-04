@@ -1,0 +1,772 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>الرئيسية</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- fontawesome5 -->
+  <!-- <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css"> -->
+  <!-- owl.carousel -->
+  <link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../assets/css/owl.theme.default.css">
+
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+ 
+  <!-- custom -->
+  <link rel="stylesheet" href="../assets/css/styleRTL.css">
+</head>
+
+<body>
+  <!-- header -->
+
+
+  <section class="first-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="main-h3">
+            إرسال طلب تنفيذ
+          </h3>
+          <p class="main-p">
+            من فضلك قُم بملء البيانات التالية
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- stepper start -->
+
+    <div class="container">
+      <div class="panel">
+        <div class="panel-body wizard-content">
+    <form id="example-form" action="#" class="tab-wizard wizard-circle wizard clearfix">
+        <h6>
+        <span class="step-title">
+          بدء الطلب
+        </span>
+
+        </h6>
+        <section>
+          <br/>
+          <div class="row">
+            <div class="col-lg-6 form-cont">
+              <label for="taskType" class="form-label">
+                اسم دائرة التنفيذ
+              </label>
+              <select class="form-control" name="" id="">
+                <option value="0">
+                  يرجى تحديد اختيار
+                </option>
+                <option value="1">
+                  1
+                </option>
+                <option value="2">
+                  2
+                </option>
+              </select>
+              <label for="taskType" class="error">This field is required.</label>
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="taskType" class="form-label">
+               درجة الأهمية
+              </label>
+              <div class="radio-inline-container">
+                <div class="form-radio  form-radio-inline">
+                  <input class="form-check-input" type="radio" value="option3" id="inlineRadio1" name="inlineRadioOptions">
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="inlineRadio1">
+                    عالي 
+                  </label>
+                </div>
+                <div class="form-radio  form-radio-inline">
+                  <input class="form-check-input" type="radio" value="option2" id="inlineRadio2" name="inlineRadioOptions">
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="inlineRadio2">
+                   متوسط
+                  </label>
+                </div>
+                <div class="form-radio  form-radio-inline">
+                  <input class="form-check-input" type="radio" value="option3" id="inlineRadio3" name="inlineRadioOptions">
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="inlineRadio3">
+                   منخفض
+                  </label>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+            
+            
+            
+         
+        </section>
+     
+        <!-- step 2 -->
+        <h6>
+          المنفذ ضده
+        </h6>
+        <section>
+          <div class="row">
+            <div class="col-lg-6 form-cont">
+              <label for="taskType" class="form-label">
+                نوع المنفذ ضده
+              </label>
+              <select class="form-control" name="" id="">
+                <option value="0">
+                  يرجى تحديد اختيار
+                </option>
+                <option value="1">
+                  1
+                </option>
+                <option value="2">
+                  2
+                </option>
+              </select>
+            </div>
+          </div>
+            
+          <div class="row">
+            <div class="col-lg-6 form-cont">
+              <label for="taskName" class="form-label">
+                رقم السجل التجاري
+              </label>
+              <input type="text" placeholder="حقل إدخال النص" class="form-control" id="taskName">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="taskStartTime" class="form-label">
+                تاريخ بداية السجل التجاري
+              </label>
+              <input type="date" class="form-control" id="taskStartTime" >
+            </div>
+            
+            <div class="col-lg-6 form-cont">
+              <label for="taskEndTime" class="form-label">
+                تاريخ نهاية السجل التجاري
+                <span>
+                  (يتم تحديد أسبوعين مع إمكانية تغيير الفترة)
+                </span>
+              </label>
+              <input type="date" class="form-control" id="taskEndTime" >
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="id" class="form-label">
+                الرقم الوطني الموحد
+              </label>
+              <input type="number" placeholder="الرقم الوطني الموحد" class="form-control" id="id">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="Name" class="form-label">
+                الاسم
+              </label>
+              <input type="text" placeholder="رجاء كتابة الاسم" class="form-control" id="Name">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="phoneNumb" class="form-label">
+                رقم الهاتف
+              </label>
+              <input type="tel" placeholder="رقم الهاتف" class="form-control" id="phoneNumb">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="phoneNumb" class="form-label">
+               checkbox text
+              </label>
+              
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="1" >
+                <span class="checkmark"></span>
+                <label class="form-check-label" for="1">
+                 1
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="2" checked>
+                <span class="checkmark"></span>
+                <label class="form-check-label" for="2">
+                  2
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="3" >
+                <span class="checkmark"></span>
+                <label class="form-check-label" for="3">
+                  3
+                </label>
+              </div>
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="radType" class="form-label">
+               درجة الأهمية
+              </label>
+              <div class="radio-inline-container">
+                <div class="form-radio  form-radio-inline">
+                  <input class="form-check-input" type="radio" value="option3" id="rad1" name="inlineRadioOptions">
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="rad1">
+                    عالي 
+                  </label>
+                </div>
+                <div class="form-radio  form-radio-inline">
+                  <input class="form-check-input" type="radio" value="option2" id="rad2" name="inlineRadioOptions">
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="rad2">
+                   متوسط
+                  </label>
+                </div>
+                <div class="form-radio  form-radio-inline">
+                  <input class="form-check-input" type="radio" value="option3" id="rad3" name="inlineRadioOptions">
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="rad3">
+                   منخفض
+                  </label>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-lg-12 form-cont">
+              <label for="phoneNumb" class="form-label">
+                بيانات مقر الشركة
+              </label>
+              
+              <textarea class="form-control" name="details" id="" cols="30" rows="10" placeholder="رجاء كتابة البيانات"></textarea>
+            </div>
+          </div>
+            
+            
+            
+            
+           
+        </section>
+     
+        <!-- step 3 -->
+        <h6>
+          بيانات السند التنفيذي
+        </h6>
+        <section>
+          <div class="row">
+            <div class="col-lg-6 form-cont">
+              <label for="" class="form-label">
+                رقم نوع السند
+              </label>
+              <select class="form-control" name="" id="">
+                <option value="0">
+                  يرجى تحديد اختيار
+                </option>
+                <option value="1">
+                  1
+                </option>
+                <option value="2">
+                  2
+                </option>
+              </select>
+            </div>
+            <div class="col-lg-6 form-cont">
+              <label for="" class="form-label">
+                رقم السند
+              </label>
+              <input type="number" placeholder="رقم السند  " class="form-control" id="">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="docDate" class="form-label">
+                تاريخ السند
+              </label>
+              <input type="date" class="form-control" id="docDate" >
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="" class="form-label">
+                مكان إصدار السند
+              </label>
+              <input type="text" placeholder="مكان إصدار السند" class="form-control" id="">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="" class="form-label">
+                جهة إصدار السند
+              </label>
+              <input type="text" placeholder="جهة إصدار السند" class="form-control" id="">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="haveMoney" class="form-label">
+                هل يتضمن السند مبالغ مالية
+              </label>
+              <div class="radio-inline-container">
+                <div class="form-radio  form-radio-inline">
+                  <input class="form-check-input" type="radio" value="option3" id="rad1" name="haveMoneyOptions">
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="rad1">
+                    نعم 
+                  </label>
+                </div>
+                <div class="form-radio  form-radio-inline">
+                  <input class="form-check-input" type="radio" value="option2" id="rad2" name="haveMoneyoOptions">
+                  <span class="checkmark"></span>
+                  <label class="form-check-label" for="rad2">
+                    لا
+                  </label>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-lg-6 form-cont">
+              <label for="id" class="form-label">
+                قيمة مبلغ السند رقمًا
+              </label>
+              <input type="number" placeholder="قيمة مبلغ السند رقمًا" class="form-control" id="id">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="id" class="form-label">
+                قيمة مبلغ السند كتابة
+              </label>
+              <input type="text" placeholder="قيمة مبلغ السند كتابة" class="form-control" id="id">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="id" class="form-label">
+                رقم الحساب المصرفي لطالب التنفيذ
+              </label>
+              <input type="text" placeholder="رقم الحساب المصرفي لطالب التنفيذ" class="form-control" id="id">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="id" class="form-label">
+                بيان منطوق السند
+              </label>
+              <input type="text" placeholder="بيان منطوق السند  " class="form-control" id="id">
+            </div>
+
+
+          </div>
+        </section>
+     
+        <!-- step 4 -->
+        <h6>
+          بيانات المطالبة بالأداء
+        </h6>
+        <section>
+          <div class="row">
+            <div class="col-lg-6 form-cont">
+              <label for="date" class="form-label">
+                تاريخ المطالبة بالأداء
+              </label>
+              <input type="date" class="form-control" id="date" >
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="" class="form-label">
+                رقم النتيجة
+              </label>
+              <select class="form-control" name="" id="">
+                <option value="0">
+                  يرجى تحديد اختيار
+                </option>
+                <option value="1">
+                  1
+                </option>
+                <option value="2">
+                  2
+                </option>
+              </select>
+            </div>
+            <div class="col-lg-6 form-cont">
+              <label for="" class="form-label">
+                رقم طلب المطالبة باألداء
+              </label>
+              <input type="number" placeholder="رقم طلب المطالبة باألداء   " class="form-control" id="">
+            </div>
+
+            <div class="col-lg-6 form-cont">
+              <label for="" class="form-label">
+                مرفق مستند طلب االداء
+              </label>
+              <input type="file" placeholder="رقم طلب المطالبة باألداء   " class="form-control" id="">
+            </div>
+
+           
+          </div>
+        
+        </section>
+
+
+
+         <!-- step 5 -->
+         <h6>
+          مراجعة الطلب
+         </h6>
+         <section>
+          <!-- start -->
+          <div class="row">
+            <div class="col-12">
+              <div class="sec-title">
+                بدء الطلب
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  اسم دائرة التنفيذ
+                </div>
+                <div class="answer">
+                  اسم دائرة التنفيذ
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  درجة الأهمية
+                </div>
+                <div class="answer">
+                  عالي 
+                </div>
+              </div>
+            </div>
+          </div>
+           <!-- end -->
+          <!-- start -->
+          <div class="row">
+            <div class="col-12">
+              <div class="sec-title">
+                المنفذ ضده
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  نوع المنفذ ضده
+                </div>
+                <div class="answer">
+                  نوع المنفذ ضده
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 empty"></div>
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  رقم السجل التجاري
+                </div>
+                <div class="answer">
+                  رقم السجل التجاري
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  تاريخ بداية السجل التجاري
+                </div>
+                <div class="answer">
+                  تاريخ بداية السجل التجاري
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  تاريخ نهاية السجل التجاري
+                </div>
+                <div class="answer">
+                  تاريخ نهاية السجل التجاري
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  الرقم الوطني الموحد
+                </div>
+                <div class="answer">
+                  الرقم الوطني الموحد
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  الاسم
+                </div>
+                <div class="answer">
+                  الاسم
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  رقم الهاتف
+                </div>
+                <div class="answer">
+                  رقم الهاتف
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  بيانات مقر الشركة
+                </div>
+                <div class="answer">
+                  عنوان مقر الشركة ...
+                </div>
+              </div>
+            </div>
+
+            
+          
+          </div>
+          <!-- end -->
+
+           <!-- start -->
+           <div class="row">
+            <div class="col-12">
+              <div class="sec-title">
+                بيانات السند التنفيذي
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  رقم نوع السند
+                </div>
+                <div class="answer">
+                  رقم نوع السند
+                </div>
+              </div>
+            </div>
+           
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  رقم السند
+                </div>
+                <div class="answer">
+                  رقم السند
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  تاريخ السند
+                </div>
+                <div class="answer">
+                  تاريخ السند
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  مكان إصدار السند
+                </div>
+                <div class="answer">
+                  مكان إصدار السند
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  جهة إصدار السند
+                </div>
+                <div class="answer">
+                  جهة إصدار السند
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  هل يتضمن السند مبالغ مالية
+                </div>
+                <div class="answer">
+                  نعم
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  قيمة مبلغ السند رقمًا
+                </div>
+                <div class="answer">
+                  قيمة مبلغ السند رقمًا
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  قيمة مبلغ السند كتابة
+                </div>
+                <div class="answer">
+                  قيمة مبلغ السند كتابة
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  رقم الحساب المصرفي لطالب التنفيذ
+                </div>
+                <div class="answer">
+                  رقم الحساب المصرفي لطالب التنفيذ
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  بيان منطوق السند
+                </div>
+                <div class="answer">
+                  بيان منطوق السند
+                </div>
+              </div>
+            </div>
+
+          
+          </div>
+          <!-- end -->
+
+          <!-- start -->
+          <div class="row">
+            <div class="col-12">
+              <div class="sec-title">
+                بيانات المطالبة بالأداء
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  تاريخ المطالبة بالأداء
+                </div>
+                <div class="answer">
+                  تاريخ المطالبة بالأداء
+                </div>
+              </div>
+            </div>
+           
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  رقم النتيجة
+                </div>
+                <div class="answer">
+                  رقم النتيجة
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  رقم طلب المطالبة باألداء
+                </div>
+                <div class="answer">
+                  رقم طلب المطالبة باألداء
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6">
+              <div class="details">
+                <div class="question">
+                  مرفق مستند طلب االداء
+                </div>
+                <div class="answer">
+                  يُرجى رفع مستند طلب االداء
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          <!-- end -->
+
+         </section>
+    </form>
+
+          </div>
+      </div>
+
+      <div class="notes grey-bg">
+        <h3>
+          ** 
+          ملاحظات هامة
+        </h3>
+        <ul>
+          <li>
+            يتعين على مدير الحساب تسجيل ممثل الكيان الحكومي الذي يتمتع بالصلاحيات القانونية مسبقًا على منصة تنفيذ
+          </li>
+          <li>
+            طرق حماية البيانات تختلف حسب نوع البيانات
+          </li>
+          <li>
+            لا يتم قبول طلب التنفيذ قبل مرور30يوم من تاريخ المطالبة بالأداء 
+          </li>
+          <li>
+            في حال الطلبات العاجلة ال يتم قبول طلب التنفيذ قبل مرور ( خمسة) أيام  من تاريخ المطالب بالأداء
+          </li>
+          <li>
+            لا يجوز للممثل القانوني تقديم طلب تنفيذ إلى جهة حكومية أخرى يمثلها أيضًا
+          </li>
+        </ul>
+        <p>
+          في حال الطلبات العاجلة ال يتم قبول طلب التنفيذ قبل مرور ( خمسة) أيام  من تاريخ المطالب بالأداء
+
+        </p>
+      </div>
+    </div>
+
+
+
+    <!-- stepper end  -->
+  </section>
+
+
+
+  <!-- jQuery -->
+  <script src="../assets/js/jQuery.js"></script>
+  <!-- Bootstrap -->
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+
+  
+    <!-- steps -->
+    <script src="../assets/js/jquery.steps.js"></script>
+
+  <!-- custom Js -->
+  <script src="../assets/js/custom.js"></script>
+
+</body>
+
+</html>
